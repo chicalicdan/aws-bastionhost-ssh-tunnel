@@ -6,7 +6,7 @@ The Problem is how to connect to private subnet instances which are not directly
 
 Source: https://myopswork.com/transparent-ssh-tunnel-through-a-bastion-host-d1d864ddb9ae
 
-./vpc.jpg
+![](./vpc.jpg)
 
 Connect to private subnet via AWS Bastion Host
 -------
