@@ -1,0 +1,11 @@
+Host jumphost
+   HostName 10.0.1.43 
+   User ec2-user
+   IdentityFile ~/.ssh/devops.pem
+   ProxyCommand none
+   
+Host securehost
+   HostName 10.0.200.96
+   User ec2-user 
+   IdentityFile ~/.ssh/devops.pem
+   ProxyCommand ssh jumphost -W %h:%p
